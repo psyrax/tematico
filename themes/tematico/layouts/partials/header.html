@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Tematico</title>
+    <meta property="og:url"                content="{{.Permalink}}" />
+	<meta property="og:type"               content="article" />
+	<meta property="og:title"              content="{{.Title}}" />
+	<meta property="og:image:width"              content="702" />
+	<meta property="og:image:height"              content="408" />
+
+	{{ if .Description }}
+    	<meta property="og:description"        content="{{.Description}}" />
+	{{else}}
+    	<meta property="og:description"        content="Podcast temático con recomendación músical buena onda." />
+	{{ end }}
+		
+	{{if isset .Params "image" }}
+		<meta property="og:image"              content="{{.Site.BaseURL}}img/{{.Params.image}}" />
+	{{else}}
+		<meta property="og:image"              content="{{.Site.BaseURL}}img/tematico.png" />
+	{{end}}
+	
+	
+
+    <link rel='stylesheet' href='//cdn.jsdelivr.net/font-hack/2.020/css/hack-extended.min.css'>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}css/style.css">
+  </head>
+  <body>
+	<div class="container">
+	  <div class="row">
+	  	<div clas="col-xs-12">
+	  		<h1 class="headerTitle">Tematico</h1>
+	  		<p>
+	  			Apoyanos con tu suscripci&oacute;n
+	  			<script src="https://apis.google.com/js/platform.js"></script>
+				<div class="g-ytsubscribe" data-channelid="UCKxo7KlGByT85HQqDc9dxYg" data-layout="default" data-theme="dark" data-count="default"></div>
+	  		</p>
+	  	</div>
+	  </div>
+	</div>

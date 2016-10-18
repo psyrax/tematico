@@ -1,0 +1,5 @@
+baseurl = "https://tematico.opiumgarden.org/"
+languageCode = "en-us"
+title ="Tematico"
+Description = "Podcast temático con recomendación músical buena onda."
+theme="tematico"

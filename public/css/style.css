@@ -1,0 +1,13 @@
+*{
+	font-family: 'Hack';
+}
+body{
+	background-color: black;
+	color: #7F0A19;
+}
+.headerTitle{
+	margin-top: 0.5em !important;
+}
+.singleTitle a{
+	color: #7F0A19 !important;
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tematico</title>
+    <link>https://tematico.opiumgarden.org/</link>
+    <description>Recent content on Tematico</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Oct 2016 16:34:07 -0500</lastBuildDate>
+    <atom:link href="https://tematico.opiumgarden.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Canciones para entrar a un ring</title>
+      <link>https://tematico.opiumgarden.org/1cancionesparaentraraunring/</link>
+      <pubDate>Tue, 18 Oct 2016 16:34:07 -0500</pubDate>
+      
+      <guid>https://tematico.opiumgarden.org/1cancionesparaentraraunring/</guid>
+      <description>&lt;div class=&#34;embed-responsive embed-responsive-16by9&#34;&gt;
+	&lt;iframe class=&#34;embed-responsive-item&#34; src=&#34;https://www.youtube.com/embed/fUEmaw5vjLk?list=PLWlvCVCglIUvirtgt8UQCbj5wD4OQS8S6&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>0 Noise</title>
+      <link>https://tematico.opiumgarden.org/0noise/</link>
+      <pubDate>Mon, 03 Oct 2016 13:25:11 -0500</pubDate>
+      
+      <guid>https://tematico.opiumgarden.org/0noise/</guid>
+      <description>&lt;p&gt;Hablando de ruido y con ruido en la emisión 0.&lt;/p&gt;
+
+&lt;div class=&#34;embed-responsive embed-responsive-16by9&#34;&gt;
+	&lt;iframe class=&#34;embed-responsive-item&#34; src=&#34;https://www.youtube.com/embed/JQ5l3Ryvta4?list=PLmiINqf_ewncAeQovOiC9Ga5XZ0NVCxmr&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
