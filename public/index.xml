@@ -16,7 +16,9 @@
       
       <guid>https://tematico.opiumgarden.org/1cancionesparaentraraunring/</guid>
       <description>&lt;div class=&#34;embed-responsive embed-responsive-16by9&#34;&gt;
-	&lt;iframe class=&#34;embed-responsive-item&#34; src=&#34;https://www.youtube.com/embed/fUEmaw5vjLk?list=PLWlvCVCglIUvirtgt8UQCbj5wD4OQS8S6&#34; allowfullscreen&gt;&lt;/iframe&gt;
+	&lt;figure class=&#34;op-interactive&#34;&gt;
+		&lt;iframe class=&#34;embed-responsive-item&#34; src=&#34;https://www.youtube.com/embed/fUEmaw5vjLk?list=PLWlvCVCglIUvirtgt8UQCbj5wD4OQS8S6&#34; allowfullscreen&gt;&lt;/iframe&gt;
+	&lt;/figure&gt;
 &lt;/div&gt;
 </description>
     </item>
@@ -30,7 +32,9 @@
       <description>&lt;p&gt;Hablando de ruido y con ruido en la emisión 0.&lt;/p&gt;
 
 &lt;div class=&#34;embed-responsive embed-responsive-16by9&#34;&gt;
-	&lt;iframe class=&#34;embed-responsive-item&#34; src=&#34;https://www.youtube.com/embed/JQ5l3Ryvta4?list=PLmiINqf_ewncAeQovOiC9Ga5XZ0NVCxmr&#34; allowfullscreen&gt;&lt;/iframe&gt;
+	&lt;figure class=&#34;op-interactive&#34;&gt;
+		&lt;iframe class=&#34;embed-responsive-item&#34; src=&#34;https://www.youtube.com/embed/JQ5l3Ryvta4?list=PLmiINqf_ewncAeQovOiC9Ga5XZ0NVCxmr&#34; allowfullscreen&gt;&lt;/iframe&gt;
+	&lt;/figure&gt;
 &lt;/div&gt;
 </description>
     </item>
