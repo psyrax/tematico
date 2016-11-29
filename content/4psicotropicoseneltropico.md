@@ -8,4 +8,4 @@ image = "tropico.jpg"
 
 En el episodio 4 de Temático les traemos toda la buena onda y pachequez que sólo la playa puede inspirar. Porque en el mar la vida es más sabrosa, sobre todo si estás en drogas. ¡Yeiii! \o/
 
-{{< youtube "PLWlvCVCglIUuHarzn4tqXNXGoEksOYAAG" >}}
+{{< youtube "JbI64xxdAac?list=PLWlvCVCglIUuHarzn4tqXNXGoEksOYAAG" >}}
