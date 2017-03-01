@@ -1,7 +1,9 @@
 +++
 Description = "Podcast temático. En esta emisión:"
 Title = ""
-image =""
+image = ""
+tracks =  []
+ytlink  = ""
 +++
 
 {{< youtube "listparams" >}}

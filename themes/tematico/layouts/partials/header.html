@@ -28,21 +28,24 @@
 	
 	
 
-    <link rel='stylesheet' href='//cdn.jsdelivr.net/font-hack/2.020/css/hack-extended.min.css'>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}css/style.css">
   </head>
   <body>
-	<div class="container">
-	  <div class="row">
-	  	<div clas="col-xs-12">
-	  		<h1 class="headerTitle">Tematico</h1>
-	  		<p>
-	  			Apoyanos con tu suscripci&oacute;n.
-	  			<script src="https://apis.google.com/js/platform.js"></script>
-				<div class="g-ytsubscribe" data-channelid="UCKxo7KlGByT85HQqDc9dxYg" data-layout="default" data-theme="dark" data-count="default"></div>
-	  		</p>
-	  	</div>
-	  </div>
-	</div>
+	<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<a class="navbar-brand headerTitle" href="{{.Site.BaseURL}}">Tematico</a>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="{{.Site.BaseURL}}">Home <span class="sr-only">(current)</span></a>
+				</li>
+				
+			</ul>
+		</div>
+	</nav>

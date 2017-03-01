@@ -1,5 +1,5 @@
 +++
-Description = "Podcast temático. En esta emisión:"
+Description = "Tira a la basura tus libros de superación personal y ponte a patear algunos traseros con la selección musical de este episodio. ¡Adiós al drama!"
 Title = "¡Supérate idiota!"
 date = "2016-12-08T18:42:58-06:00"
 image = "superate.jpg"

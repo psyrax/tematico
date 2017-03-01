@@ -1,29 +1,9 @@
 *{
-	font-family: 'Hack';
+	font-family: 'Quicksand', sans-serif;
 }
-body{
-	background-color: black;
-	color: #7F0A19;
-	transition: all ease;
+.episodeCard, .singleContainer{
+	margin-top: 1em;
 }
-.headerTitle{
-	margin-top: 0.5em !important;
-}
-a{
-	color: #7F0A19 !important;
-	text-decoration: underline;;
-}
-
-@-webkit-keyframes color_change {
-      0% {color: #F6511D;}
-     25% {color: #FFB400;}
-     50% {color: #00A6ED;}
-     75% {color: #7FB800;}
-    100% {color: #0D2C54;}
-}
-body, a {
-	animation-name: color_change;
-	animation-duration: 10s;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
+.singleContainer{
+	margin-bottom: 3em;
 }

@@ -1,8 +1,18 @@
 {{ partial "header.html" . }}
 <div class="container">
-  {{ range .Data.Pages }}
-    <h2 class="singleTitle"><a href="{{ .Permalink }}">{{.Title}}</a></h2>
-    {{ .Content}}
-  {{ end }}
+	<div class="row">
+	  {{ range .Data.Pages }}
+		<div class="col-md-4 episodeCard">
+			<div class="card">
+			  <img class="card-img-top img-fluid" src="{{.Site.BaseURL}}img/{{.Params.image}}" alt="Portada {{.Title}}">
+			  <div class="card-block">
+			    <h4 class="card-title">{{.Title}}</h4>
+			    <p class="card-text">{{ .Description}}</p>
+			    <a href="{{ .Permalink }}" class="btn btn-success">Reproducir</a>
+			  </div>
+			</div>
+		</div>
+	  {{ end }}
+  </div>
 </div>
 {{ partial "footer.html" . }}
