@@ -49,28 +49,31 @@
 	<div class="row singleContainer">
 		<div class="col-md-4 ">
 			<div class="card">
-				<img class="card-img-top img-fluid" src="https://tematico.org/img/rockidioma4.jpg" alt="Portada Rock en tu idioma vol. 4">
+				<img class="card-img-top img-fluid" src="https://tematico.org/img/rockidioma4.jpg" alt="Portada Rock en tu idioma vol. 4" />
+				<div class="card-img-overlay">
+					<a href="#"  id="startPlaylist" data-listid="" ><i class="fa fa-play-circle-o fa-5x" id="controlSpan" aria-hidden="true"></i></a>
+				</div>
 				<div class="card-block">
 					<h4 class="card-title">Rock en tu idioma vol. 4</h4>
 					<p class="card-text">¿Se acuerdan de los discos Rock En Tu Idioma? Bueno, en Temático les pasamos nuestra selección de bandas que hubieran aparecido si los hubieran seguido produciendo...</p>
 				</div>
-				
-				<div class="card-block">
-					
-				</div>
 			</div>
 		</div>
-		<div class="col-md-8">
+		<div class="col-md-4">
+			
+		</div>
+		<div class="col-md-4">
 			<p>¿Se acuerdan de los discos Rock En Tu Idioma? Bueno, en Temático les pasamos nuestra selección de bandas que hubieran aparecido si los hubieran seguido produciendo&hellip;
-<div class="embed-responsive embed-responsive-16by9">
-	<figure class="op-interactive">
-		<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/fpICdYBQfJo?list=PLWlvCVCglIUuGfK_6Kzmn-ZbHtwV5CY_n" allowfullscreen></iframe>
-	</figure>
+<div class="embed-responsive embed-responsive-16by9 miniPlayer">
+		<iframe class="embed-responsive-item" id="ytplayer" src="https://www.youtube.com/embed/fpICdYBQfJo?list=PLWlvCVCglIUuGfK_6Kzmn-ZbHtwV5CY_n&enablejsapi=1"  enablejsapi="1" allowfullscreen ></iframe>
 </div></p>
  
+			
 		</div>
 	</div>
 </div>
+	<script src="https://www.youtube.com/iframe_api"></script>
+	<script src="https://use.fontawesome.com/51795fb52f.js"></script>
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>

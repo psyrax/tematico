@@ -49,29 +49,32 @@
 	<div class="row singleContainer">
 		<div class="col-md-4 ">
 			<div class="card">
-				<img class="card-img-top img-fluid" src="https://tematico.org/img/2016.jpg" alt="Portada Lo mejor del 2016">
+				<img class="card-img-top img-fluid" src="https://tematico.org/img/2016.jpg" alt="Portada Lo mejor del 2016" />
+				<div class="card-img-overlay">
+					<a href="#"  id="startPlaylist" data-listid="" ><i class="fa fa-play-circle-o fa-5x" id="controlSpan" aria-hidden="true"></i></a>
+				</div>
 				<div class="card-block">
 					<h4 class="card-title">Lo mejor del 2016</h4>
 					<p class="card-text">El 2016 se llevó a muchos músicos pero nos dejó muchas buenas canciones. Y como ñoños que somos hicimos nuestro recuento de lo mejor del año.</p>
 				</div>
-				
-				<div class="card-block">
-					
-				</div>
 			</div>
 		</div>
-		<div class="col-md-8">
+		<div class="col-md-4">
+			
+		</div>
+		<div class="col-md-4">
 			<p>El 2016 se llevó a muchos músicos pero nos dejó muchas buenas canciones. Y como ñoños que somos hicimos nuestro recuento de lo mejor del año.</p>
 
-<div class="embed-responsive embed-responsive-16by9">
-	<figure class="op-interactive">
-		<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/0CvFByKeMOM?list=PLWlvCVCglIUv-esnO3sS0gexLOvBDlL5J" allowfullscreen></iframe>
-	</figure>
+<div class="embed-responsive embed-responsive-16by9 miniPlayer">
+		<iframe class="embed-responsive-item" id="ytplayer" src="https://www.youtube.com/embed/0CvFByKeMOM?list=PLWlvCVCglIUv-esnO3sS0gexLOvBDlL5J&enablejsapi=1"  enablejsapi="1" allowfullscreen ></iframe>
 </div>
  
+			
 		</div>
 	</div>
 </div>
+	<script src="https://www.youtube.com/iframe_api"></script>
+	<script src="https://use.fontawesome.com/51795fb52f.js"></script>
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>

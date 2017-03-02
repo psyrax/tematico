@@ -15,10 +15,8 @@
       <pubDate>Wed, 01 Mar 2017 15:39:35 -0600</pubDate>
       
       <guid>https://tematico.org/13lustrandome/</guid>
-      <description>&lt;div class=&#34;embed-responsive embed-responsive-16by9&#34;&gt;
-	&lt;figure class=&#34;op-interactive&#34;&gt;
-		&lt;iframe class=&#34;embed-responsive-item&#34; src=&#34;https://www.youtube.com/embed/aQMYQ9hVwg4?list=PLWlvCVCglIUsoqZ_an6Sqfg9F2j4hQKkN&#34; allowfullscreen&gt;&lt;/iframe&gt;
-	&lt;/figure&gt;
+      <description>&lt;div class=&#34;embed-responsive embed-responsive-16by9 miniPlayer&#34;&gt;
+		&lt;iframe class=&#34;embed-responsive-item&#34; id=&#34;ytplayer&#34; src=&#34;https://www.youtube.com/embed/aQMYQ9hVwg4?list=PLWlvCVCglIUsoqZ_an6Sqfg9F2j4hQKkN&amp;enablejsapi=1&#34;  enablejsapi=&#34;1&#34; allowfullscreen &gt;&lt;/iframe&gt;
 &lt;/div&gt;
 </description>
     </item>
@@ -30,10 +28,8 @@
       
       <guid>https://tematico.org/12tropidarks/</guid>
       <description>&lt;p&gt;¿Qué es Tropidarks? Es cuando eres darks, pero vas a la playa y el sol te deja tan negro como tu ropa.
-&lt;div class=&#34;embed-responsive embed-responsive-16by9&#34;&gt;
-	&lt;figure class=&#34;op-interactive&#34;&gt;
-		&lt;iframe class=&#34;embed-responsive-item&#34; src=&#34;https://www.youtube.com/embed/n6ZGT8DZe7s?list=PLWlvCVCglIUuwu4uUBFQD0MNn65_BmXkS&#34; allowfullscreen&gt;&lt;/iframe&gt;
-	&lt;/figure&gt;
+&lt;div class=&#34;embed-responsive embed-responsive-16by9 miniPlayer&#34;&gt;
+		&lt;iframe class=&#34;embed-responsive-item&#34; id=&#34;ytplayer&#34; src=&#34;https://www.youtube.com/embed/n6ZGT8DZe7s?list=PLWlvCVCglIUuwu4uUBFQD0MNn65_BmXkS&amp;enablejsapi=1&#34;  enablejsapi=&#34;1&#34; allowfullscreen &gt;&lt;/iframe&gt;
 &lt;/div&gt;&lt;/p&gt;
 </description>
     </item>
@@ -45,10 +41,8 @@
       
       <guid>https://tematico.org/11valentin/</guid>
       <description>&lt;p&gt;Las rosas son verdes, las violetas azul, este poema no tiene sentido, Baila robot. Y esto es Temático en amor
-&lt;div class=&#34;embed-responsive embed-responsive-16by9&#34;&gt;
-	&lt;figure class=&#34;op-interactive&#34;&gt;
-		&lt;iframe class=&#34;embed-responsive-item&#34; src=&#34;https://www.youtube.com/embed/MgnhcpEB6KY?list=PLWlvCVCglIUtT2IFKXUbRfdzQQCukPswO&#34; allowfullscreen&gt;&lt;/iframe&gt;
-	&lt;/figure&gt;
+&lt;div class=&#34;embed-responsive embed-responsive-16by9 miniPlayer&#34;&gt;
+		&lt;iframe class=&#34;embed-responsive-item&#34; id=&#34;ytplayer&#34; src=&#34;https://www.youtube.com/embed/MgnhcpEB6KY?list=PLWlvCVCglIUtT2IFKXUbRfdzQQCukPswO&amp;enablejsapi=1&#34;  enablejsapi=&#34;1&#34; allowfullscreen &gt;&lt;/iframe&gt;
 &lt;/div&gt;&lt;/p&gt;
 </description>
     </item>
@@ -60,10 +54,8 @@
       
       <guid>https://tematico.org/10rockidioma/</guid>
       <description>&lt;p&gt;¿Se acuerdan de los discos Rock En Tu Idioma? Bueno, en Temático les pasamos nuestra selección de bandas que hubieran aparecido si los hubieran seguido produciendo&amp;hellip;
-&lt;div class=&#34;embed-responsive embed-responsive-16by9&#34;&gt;
-	&lt;figure class=&#34;op-interactive&#34;&gt;
-		&lt;iframe class=&#34;embed-responsive-item&#34; src=&#34;https://www.youtube.com/embed/fpICdYBQfJo?list=PLWlvCVCglIUuGfK_6Kzmn-ZbHtwV5CY_n&#34; allowfullscreen&gt;&lt;/iframe&gt;
-	&lt;/figure&gt;
+&lt;div class=&#34;embed-responsive embed-responsive-16by9 miniPlayer&#34;&gt;
+		&lt;iframe class=&#34;embed-responsive-item&#34; id=&#34;ytplayer&#34; src=&#34;https://www.youtube.com/embed/fpICdYBQfJo?list=PLWlvCVCglIUuGfK_6Kzmn-ZbHtwV5CY_n&amp;enablejsapi=1&#34;  enablejsapi=&#34;1&#34; allowfullscreen &gt;&lt;/iframe&gt;
 &lt;/div&gt;&lt;/p&gt;
 </description>
     </item>
@@ -75,10 +67,8 @@
       
       <guid>https://tematico.org/9monadeguayaba/</guid>
       <description>&lt;p&gt;¡Traigan thinner que nos sobra estopa! De nuevo llegó Temático con un episodio dedicado al Rock Urbano.
-&lt;div class=&#34;embed-responsive embed-responsive-16by9&#34;&gt;
-	&lt;figure class=&#34;op-interactive&#34;&gt;
-		&lt;iframe class=&#34;embed-responsive-item&#34; src=&#34;https://www.youtube.com/embed/EmSe5COi_bU?list=PLWlvCVCglIUs13sK9P5y9qVjx_n4CUta1&#34; allowfullscreen&gt;&lt;/iframe&gt;
-	&lt;/figure&gt;
+&lt;div class=&#34;embed-responsive embed-responsive-16by9 miniPlayer&#34;&gt;
+		&lt;iframe class=&#34;embed-responsive-item&#34; id=&#34;ytplayer&#34; src=&#34;https://www.youtube.com/embed/EmSe5COi_bU?list=PLWlvCVCglIUs13sK9P5y9qVjx_n4CUta1&amp;enablejsapi=1&#34;  enablejsapi=&#34;1&#34; allowfullscreen &gt;&lt;/iframe&gt;
 &lt;/div&gt;&lt;/p&gt;
 </description>
     </item>
@@ -91,10 +81,8 @@
       <guid>https://tematico.org/8lomejor2016/</guid>
       <description>&lt;p&gt;El 2016 se llevó a muchos músicos pero nos dejó muchas buenas canciones. Y como ñoños que somos hicimos nuestro recuento de lo mejor del año.&lt;/p&gt;
 
-&lt;div class=&#34;embed-responsive embed-responsive-16by9&#34;&gt;
-	&lt;figure class=&#34;op-interactive&#34;&gt;
-		&lt;iframe class=&#34;embed-responsive-item&#34; src=&#34;https://www.youtube.com/embed/0CvFByKeMOM?list=PLWlvCVCglIUv-esnO3sS0gexLOvBDlL5J&#34; allowfullscreen&gt;&lt;/iframe&gt;
-	&lt;/figure&gt;
+&lt;div class=&#34;embed-responsive embed-responsive-16by9 miniPlayer&#34;&gt;
+		&lt;iframe class=&#34;embed-responsive-item&#34; id=&#34;ytplayer&#34; src=&#34;https://www.youtube.com/embed/0CvFByKeMOM?list=PLWlvCVCglIUv-esnO3sS0gexLOvBDlL5J&amp;enablejsapi=1&#34;  enablejsapi=&#34;1&#34; allowfullscreen &gt;&lt;/iframe&gt;
 &lt;/div&gt;
 </description>
     </item>
@@ -107,10 +95,8 @@
       <guid>https://tematico.org/7navidad/</guid>
       <description>&lt;p&gt;Llegó la época de los intercambios, las fiestas de oficina y los suéteres feos. Pero no todo es tan malo si lo acompañas con este Temático de fin de año.&lt;/p&gt;
 
-&lt;div class=&#34;embed-responsive embed-responsive-16by9&#34;&gt;
-	&lt;figure class=&#34;op-interactive&#34;&gt;
-		&lt;iframe class=&#34;embed-responsive-item&#34; src=&#34;https://www.youtube.com/embed/kEkbLe-nOso?list=PLWlvCVCglIUuDzkvEVu8qhIf5WYsZoYXT&#34; allowfullscreen&gt;&lt;/iframe&gt;
-	&lt;/figure&gt;
+&lt;div class=&#34;embed-responsive embed-responsive-16by9 miniPlayer&#34;&gt;
+		&lt;iframe class=&#34;embed-responsive-item&#34; id=&#34;ytplayer&#34; src=&#34;https://www.youtube.com/embed/kEkbLe-nOso?list=PLWlvCVCglIUuDzkvEVu8qhIf5WYsZoYXT&amp;enablejsapi=1&#34;  enablejsapi=&#34;1&#34; allowfullscreen &gt;&lt;/iframe&gt;
 &lt;/div&gt;
 </description>
     </item>
@@ -123,10 +109,8 @@
       <guid>https://tematico.org/6anivdelarev/</guid>
       <description>&lt;p&gt;En Temático llegó la revolución para hacerles justicia a todos. Y aunque no siempre llega a tiempo, viene con todo su poder musical.&lt;/p&gt;
 
-&lt;div class=&#34;embed-responsive embed-responsive-16by9&#34;&gt;
-	&lt;figure class=&#34;op-interactive&#34;&gt;
-		&lt;iframe class=&#34;embed-responsive-item&#34; src=&#34;https://www.youtube.com/embed/EMZ9Fw6WN-Y?list=PLWlvCVCglIUtwsjkhiu7xabfh7x9QsVTT&#34; allowfullscreen&gt;&lt;/iframe&gt;
-	&lt;/figure&gt;
+&lt;div class=&#34;embed-responsive embed-responsive-16by9 miniPlayer&#34;&gt;
+		&lt;iframe class=&#34;embed-responsive-item&#34; id=&#34;ytplayer&#34; src=&#34;https://www.youtube.com/embed/EMZ9Fw6WN-Y?list=PLWlvCVCglIUtwsjkhiu7xabfh7x9QsVTT&amp;enablejsapi=1&#34;  enablejsapi=&#34;1&#34; allowfullscreen &gt;&lt;/iframe&gt;
 &lt;/div&gt;
 </description>
     </item>
@@ -139,10 +123,8 @@
       <guid>https://tematico.org/5superate/</guid>
       <description>&lt;p&gt;Tira a la basura tus libros de superación personal y ponte a patear algunos traseros con la selección musical de este episodio. ¡Adiós al drama! Esto es: &amp;ldquo;¡Supérate idiota!&amp;rdquo;&lt;/p&gt;
 
-&lt;div class=&#34;embed-responsive embed-responsive-16by9&#34;&gt;
-	&lt;figure class=&#34;op-interactive&#34;&gt;
-		&lt;iframe class=&#34;embed-responsive-item&#34; src=&#34;https://www.youtube.com/embed/z1JHm0DVQ3E?list=PLWlvCVCglIUseETn5vINPNJ-ZmPpykO0b&#34; allowfullscreen&gt;&lt;/iframe&gt;
-	&lt;/figure&gt;
+&lt;div class=&#34;embed-responsive embed-responsive-16by9 miniPlayer&#34;&gt;
+		&lt;iframe class=&#34;embed-responsive-item&#34; id=&#34;ytplayer&#34; src=&#34;https://www.youtube.com/embed/z1JHm0DVQ3E?list=PLWlvCVCglIUseETn5vINPNJ-ZmPpykO0b&amp;enablejsapi=1&#34;  enablejsapi=&#34;1&#34; allowfullscreen &gt;&lt;/iframe&gt;
 &lt;/div&gt;
 </description>
     </item>
@@ -155,10 +137,8 @@
       <guid>https://tematico.org/4psicotropicoseneltropico/</guid>
       <description>&lt;p&gt;En el episodio 4 de Temático les traemos toda la buena onda y pachequez que sólo la playa puede inspirar. Porque en el mar la vida es más sabrosa, sobre todo si estás en drogas. ¡Yeiii! \o/&lt;/p&gt;
 
-&lt;div class=&#34;embed-responsive embed-responsive-16by9&#34;&gt;
-	&lt;figure class=&#34;op-interactive&#34;&gt;
-		&lt;iframe class=&#34;embed-responsive-item&#34; src=&#34;https://www.youtube.com/embed/JbI64xxdAac?list=PLWlvCVCglIUuHarzn4tqXNXGoEksOYAAG&#34; allowfullscreen&gt;&lt;/iframe&gt;
-	&lt;/figure&gt;
+&lt;div class=&#34;embed-responsive embed-responsive-16by9 miniPlayer&#34;&gt;
+		&lt;iframe class=&#34;embed-responsive-item&#34; id=&#34;ytplayer&#34; src=&#34;https://www.youtube.com/embed/JbI64xxdAac?list=PLWlvCVCglIUuHarzn4tqXNXGoEksOYAAG&amp;enablejsapi=1&#34;  enablejsapi=&#34;1&#34; allowfullscreen &gt;&lt;/iframe&gt;
 &lt;/div&gt;
 </description>
     </item>
@@ -173,10 +153,8 @@
 
 &lt;p&gt;Music Bed Cortesia de &lt;a href=&#34;https://soundcloud.com/sr_pixel&#34;&gt;Sr_Pixel&lt;/a&gt; - Halloween&lt;/p&gt;
 
-&lt;div class=&#34;embed-responsive embed-responsive-16by9&#34;&gt;
-	&lt;figure class=&#34;op-interactive&#34;&gt;
-		&lt;iframe class=&#34;embed-responsive-item&#34; src=&#34;https://www.youtube.com/embed/--nJvhcmVvE?list=PLWlvCVCglIUt0H9pv4AwT0yXiTNq3SDHe&#34; allowfullscreen&gt;&lt;/iframe&gt;
-	&lt;/figure&gt;
+&lt;div class=&#34;embed-responsive embed-responsive-16by9 miniPlayer&#34;&gt;
+		&lt;iframe class=&#34;embed-responsive-item&#34; id=&#34;ytplayer&#34; src=&#34;https://www.youtube.com/embed/--nJvhcmVvE?list=PLWlvCVCglIUt0H9pv4AwT0yXiTNq3SDHe&amp;enablejsapi=1&#34;  enablejsapi=&#34;1&#34; allowfullscreen &gt;&lt;/iframe&gt;
 &lt;/div&gt;
 </description>
     </item>
@@ -190,10 +168,8 @@
       <description>&lt;p&gt;Podcast temático. En esta emisión: Nos dio por ponernos a bailar con las canciones que usaban nuestras progenitoras para irse de reventón. También comimos churritos y probamos pulque coreano. Todo esto y más en nuestro segundo episodio de Temático.&amp;rdquo;&lt;/p&gt;
 
 &lt;p&gt;Music Bed Cortesia de &lt;a href=&#34;https://soundcloud.com/sr_pixel&#34;&gt;Sr_Pixel&lt;/a&gt; - &lt;a href=&#34;https://soundcloud.com/sr_pixel/you-spin-me-round-like-hedgehog&#34;&gt;You Spin Me Round -Like hedgehog-&lt;/a&gt;
-&lt;div class=&#34;embed-responsive embed-responsive-16by9&#34;&gt;
-	&lt;figure class=&#34;op-interactive&#34;&gt;
-		&lt;iframe class=&#34;embed-responsive-item&#34; src=&#34;https://www.youtube.com/embed/FOcbsWHJvZc?list=PLWlvCVCglIUu3GAew9mKSai1QEmA_Bs1o&#34; allowfullscreen&gt;&lt;/iframe&gt;
-	&lt;/figure&gt;
+&lt;div class=&#34;embed-responsive embed-responsive-16by9 miniPlayer&#34;&gt;
+		&lt;iframe class=&#34;embed-responsive-item&#34; id=&#34;ytplayer&#34; src=&#34;https://www.youtube.com/embed/FOcbsWHJvZc?list=PLWlvCVCglIUu3GAew9mKSai1QEmA_Bs1o&amp;enablejsapi=1&#34;  enablejsapi=&#34;1&#34; allowfullscreen &gt;&lt;/iframe&gt;
 &lt;/div&gt;&lt;/p&gt;
 </description>
     </item>
@@ -204,10 +180,8 @@
       <pubDate>Tue, 18 Oct 2016 16:34:07 -0500</pubDate>
       
       <guid>https://tematico.org/1cancionesparaentraraunring/</guid>
-      <description>&lt;div class=&#34;embed-responsive embed-responsive-16by9&#34;&gt;
-	&lt;figure class=&#34;op-interactive&#34;&gt;
-		&lt;iframe class=&#34;embed-responsive-item&#34; src=&#34;https://www.youtube.com/embed/fUEmaw5vjLk?list=PLWlvCVCglIUvirtgt8UQCbj5wD4OQS8S6&#34; allowfullscreen&gt;&lt;/iframe&gt;
-	&lt;/figure&gt;
+      <description>&lt;div class=&#34;embed-responsive embed-responsive-16by9 miniPlayer&#34;&gt;
+		&lt;iframe class=&#34;embed-responsive-item&#34; id=&#34;ytplayer&#34; src=&#34;https://www.youtube.com/embed/fUEmaw5vjLk?list=PLWlvCVCglIUvirtgt8UQCbj5wD4OQS8S6&amp;enablejsapi=1&#34;  enablejsapi=&#34;1&#34; allowfullscreen &gt;&lt;/iframe&gt;
 &lt;/div&gt;
 </description>
     </item>
@@ -220,10 +194,8 @@
       <guid>https://tematico.org/0noise/</guid>
       <description>&lt;p&gt;Hablando de ruido y con ruido en la emisión 0.&lt;/p&gt;
 
-&lt;div class=&#34;embed-responsive embed-responsive-16by9&#34;&gt;
-	&lt;figure class=&#34;op-interactive&#34;&gt;
-		&lt;iframe class=&#34;embed-responsive-item&#34; src=&#34;https://www.youtube.com/embed/JQ5l3Ryvta4?list=PLmiINqf_ewncAeQovOiC9Ga5XZ0NVCxmr&#34; allowfullscreen&gt;&lt;/iframe&gt;
-	&lt;/figure&gt;
+&lt;div class=&#34;embed-responsive embed-responsive-16by9 miniPlayer&#34;&gt;
+		&lt;iframe class=&#34;embed-responsive-item&#34; id=&#34;ytplayer&#34; src=&#34;https://www.youtube.com/embed/JQ5l3Ryvta4?list=PLmiINqf_ewncAeQovOiC9Ga5XZ0NVCxmr&amp;enablejsapi=1&#34;  enablejsapi=&#34;1&#34; allowfullscreen &gt;&lt;/iframe&gt;
 &lt;/div&gt;
 </description>
     </item>

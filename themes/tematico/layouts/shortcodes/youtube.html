@@ -1,5 +1,3 @@
-<div class="embed-responsive embed-responsive-16by9">
-	<figure class="op-interactive">
-		<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ index .Params 0 }}" allowfullscreen></iframe>
-	</figure>
+<div class="embed-responsive embed-responsive-16by9 miniPlayer">
+		<iframe class="embed-responsive-item" id="ytplayer" src="https://www.youtube.com/embed/{{ index .Params 0 }}&enablejsapi=1"  enablejsapi="1" allowfullscreen ></iframe>
 </div>

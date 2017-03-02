@@ -7,3 +7,11 @@
 .singleContainer{
 	margin-bottom: 3em;
 }
+
+#startPlaylist{
+	color: white;
+}
+
+.miniPlayer{
+	margin-bottom: 1em;
+}
