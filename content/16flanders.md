@@ -8,4 +8,4 @@ ytlink = "https://youtu.be/7ujFo0CSOys?list=PLWlvCVCglIUveof3O0WTbcEIy_2DddcAp"
 
 +++
 
-{{< youtube "7ujFo0CSOys&list=PLWlvCVCglIUveof3O0WTbcEIy_2DddcAp" >}}
+{{< youtube "7ujFo0CSOys?list=PLWlvCVCglIUveof3O0WTbcEIy_2DddcAp" >}}

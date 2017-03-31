@@ -16,7 +16,7 @@
       
       <guid>https://tematico.org/16flanders/</guid>
       <description>&lt;div class=&#34;embed-responsive embed-responsive-16by9 miniPlayer&#34;&gt;
-		&lt;iframe class=&#34;embed-responsive-item&#34; id=&#34;ytplayer&#34; src=&#34;https://www.youtube.com/embed/7ujFo0CSOys&amp;amp;list=PLWlvCVCglIUveof3O0WTbcEIy_2DddcAp&amp;enablejsapi=1&#34;  enablejsapi=&#34;1&#34; allowfullscreen &gt;&lt;/iframe&gt;
+		&lt;iframe class=&#34;embed-responsive-item&#34; id=&#34;ytplayer&#34; src=&#34;https://www.youtube.com/embed/7ujFo0CSOys?list=PLWlvCVCglIUveof3O0WTbcEIy_2DddcAp&amp;enablejsapi=1&#34;  enablejsapi=&#34;1&#34; allowfullscreen &gt;&lt;/iframe&gt;
 &lt;/div&gt;
 </description>
     </item>
