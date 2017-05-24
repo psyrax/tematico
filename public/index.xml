@@ -6,8 +6,20 @@
     <description>Recent content on Tematico</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 May 2017 09:51:39 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 10 May 2017 17:19:22 -0500</lastBuildDate>
     <atom:link href="https://tematico.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Ta con&#39; madre</title>
+      <link>https://tematico.org/20taconmadre/</link>
+      <pubDate>Wed, 10 May 2017 17:19:22 -0500</pubDate>
+      
+      <guid>https://tematico.org/20taconmadre/</guid>
+      <description>&lt;p&gt;&lt;div class=&#34;embed-responsive embed-responsive-16by9 miniPlayer&#34;&gt;
+		&lt;iframe class=&#34;embed-responsive-item&#34; id=&#34;ytplayer&#34; src=&#34;https://www.youtube.com/embed/qPS76CNcYrk?list=PLWlvCVCglIUsLL5aaFl0BMW2VneLb1dz4&amp;enablejsapi=1&#34;  enablejsapi=&#34;1&#34; allowfullscreen &gt;&lt;/iframe&gt;
+&lt;/div&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Canciones para tu niño interior.</title>
@@ -183,20 +195,6 @@
 
 &lt;p&gt;&lt;div class=&#34;embed-responsive embed-responsive-16by9 miniPlayer&#34;&gt;
 		&lt;iframe class=&#34;embed-responsive-item&#34; id=&#34;ytplayer&#34; src=&#34;https://www.youtube.com/embed/EMZ9Fw6WN-Y?list=PLWlvCVCglIUtwsjkhiu7xabfh7x9QsVTT&amp;enablejsapi=1&#34;  enablejsapi=&#34;1&#34; allowfullscreen &gt;&lt;/iframe&gt;
-&lt;/div&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>¡Supérate idiota!</title>
-      <link>https://tematico.org/5superate/</link>
-      <pubDate>Thu, 08 Dec 2016 18:42:58 -0600</pubDate>
-      
-      <guid>https://tematico.org/5superate/</guid>
-      <description>&lt;p&gt;Tira a la basura tus libros de superación personal y ponte a patear algunos traseros con la selección musical de este episodio. ¡Adiós al drama! Esto es: &amp;ldquo;¡Supérate idiota!&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;&lt;div class=&#34;embed-responsive embed-responsive-16by9 miniPlayer&#34;&gt;
-		&lt;iframe class=&#34;embed-responsive-item&#34; id=&#34;ytplayer&#34; src=&#34;https://www.youtube.com/embed/z1JHm0DVQ3E?list=PLWlvCVCglIUseETn5vINPNJ-ZmPpykO0b&amp;enablejsapi=1&#34;  enablejsapi=&#34;1&#34; allowfullscreen &gt;&lt;/iframe&gt;
 &lt;/div&gt;&lt;/p&gt;
 </description>
     </item>
