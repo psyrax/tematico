@@ -6,8 +6,20 @@
     <description>Recent content on Tematico</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 May 2017 17:19:22 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 18 May 2017 12:02:00 -0500</lastBuildDate>
     <atom:link href="https://tematico.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Aay Ya le Cayó Ron a mi Coca</title>
+      <link>https://tematico.org/21cocaron/</link>
+      <pubDate>Thu, 18 May 2017 12:02:00 -0500</pubDate>
+      
+      <guid>https://tematico.org/21cocaron/</guid>
+      <description>&lt;p&gt;&lt;div class=&#34;embed-responsive embed-responsive-16by9 miniPlayer&#34;&gt;
+		&lt;iframe class=&#34;embed-responsive-item&#34; id=&#34;ytplayer&#34; src=&#34;https://www.youtube.com/embed/BblMN5_qLuo?list=PLWlvCVCglIUtBLNO_6Fh7DQmFv3k0L4ZI&amp;enablejsapi=1&#34;  enablejsapi=&#34;1&#34; allowfullscreen &gt;&lt;/iframe&gt;
+&lt;/div&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Ta con&#39; madre</title>
@@ -181,20 +193,6 @@
 
 &lt;p&gt;&lt;div class=&#34;embed-responsive embed-responsive-16by9 miniPlayer&#34;&gt;
 		&lt;iframe class=&#34;embed-responsive-item&#34; id=&#34;ytplayer&#34; src=&#34;https://www.youtube.com/embed/kEkbLe-nOso?list=PLWlvCVCglIUuDzkvEVu8qhIf5WYsZoYXT&amp;enablejsapi=1&#34;  enablejsapi=&#34;1&#34; allowfullscreen &gt;&lt;/iframe&gt;
-&lt;/div&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Anivdelarev</title>
-      <link>https://tematico.org/6anivdelarev/</link>
-      <pubDate>Fri, 16 Dec 2016 13:01:50 -0600</pubDate>
-      
-      <guid>https://tematico.org/6anivdelarev/</guid>
-      <description>&lt;p&gt;En Temático llegó la revolución para hacerles justicia a todos. Y aunque no siempre llega a tiempo, viene con todo su poder musical.&lt;/p&gt;
-
-&lt;p&gt;&lt;div class=&#34;embed-responsive embed-responsive-16by9 miniPlayer&#34;&gt;
-		&lt;iframe class=&#34;embed-responsive-item&#34; id=&#34;ytplayer&#34; src=&#34;https://www.youtube.com/embed/EMZ9Fw6WN-Y?list=PLWlvCVCglIUtwsjkhiu7xabfh7x9QsVTT&amp;enablejsapi=1&#34;  enablejsapi=&#34;1&#34; allowfullscreen &gt;&lt;/iframe&gt;
 &lt;/div&gt;&lt;/p&gt;
 </description>
     </item>
