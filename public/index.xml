@@ -6,8 +6,20 @@
     <description>Recent content on Tematico</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 May 2017 12:02:00 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 25 May 2017 08:49:58 -0500</lastBuildDate>
     <atom:link href="https://tematico.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Día de la Toalla</title>
+      <link>https://tematico.org/22toalla/</link>
+      <pubDate>Thu, 25 May 2017 08:49:58 -0500</pubDate>
+      
+      <guid>https://tematico.org/22toalla/</guid>
+      <description>&lt;p&gt;&lt;div class=&#34;embed-responsive embed-responsive-16by9 miniPlayer&#34;&gt;
+		&lt;iframe class=&#34;embed-responsive-item&#34; id=&#34;ytplayer&#34; src=&#34;https://www.youtube.com/embed/M9ucJLgoCts?list=PLWlvCVCglIUucGX3HZvDW_NzcmzpTrMC6&amp;enablejsapi=1&#34;  enablejsapi=&#34;1&#34; allowfullscreen &gt;&lt;/iframe&gt;
+&lt;/div&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Aay Ya le Cayó Ron a mi Coca</title>
@@ -179,20 +191,6 @@
 
 &lt;p&gt;&lt;div class=&#34;embed-responsive embed-responsive-16by9 miniPlayer&#34;&gt;
 		&lt;iframe class=&#34;embed-responsive-item&#34; id=&#34;ytplayer&#34; src=&#34;https://www.youtube.com/embed/0CvFByKeMOM?list=PLWlvCVCglIUv-esnO3sS0gexLOvBDlL5J&amp;enablejsapi=1&#34;  enablejsapi=&#34;1&#34; allowfullscreen &gt;&lt;/iframe&gt;
-&lt;/div&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Navidad 2016</title>
-      <link>https://tematico.org/7navidad/</link>
-      <pubDate>Thu, 29 Dec 2016 15:41:48 -0600</pubDate>
-      
-      <guid>https://tematico.org/7navidad/</guid>
-      <description>&lt;p&gt;Llegó la época de los intercambios, las fiestas de oficina y los suéteres feos. Pero no todo es tan malo si lo acompañas con este Temático de fin de año.&lt;/p&gt;
-
-&lt;p&gt;&lt;div class=&#34;embed-responsive embed-responsive-16by9 miniPlayer&#34;&gt;
-		&lt;iframe class=&#34;embed-responsive-item&#34; id=&#34;ytplayer&#34; src=&#34;https://www.youtube.com/embed/kEkbLe-nOso?list=PLWlvCVCglIUuDzkvEVu8qhIf5WYsZoYXT&amp;enablejsapi=1&#34;  enablejsapi=&#34;1&#34; allowfullscreen &gt;&lt;/iframe&gt;
 &lt;/div&gt;&lt;/p&gt;
 </description>
     </item>
