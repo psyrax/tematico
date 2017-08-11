@@ -6,10 +6,19 @@
     <description>Recent content on Tematico</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Jul 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://tematico.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Época de lluvias</title>
+      <link>https://tematico.org/28lluvias/</link>
+      <pubDate>Tue, 25 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://tematico.org/28lluvias/</guid>
+      <description>  </description>
+    </item>
     
     <item>
       <title>De colores</title>
