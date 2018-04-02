@@ -1,0 +1,49 @@
+{{ partial "header.html" . }}
+<div class="container tematicoContainer">
+  <div class="row">
+    <div class="col-md-12 col-lg-6">
+      <img src="/img/tematico.jpg" class="img-fluid">
+    </div>
+    <div class="col-md-12 col-lg-6">
+      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Temporada 2
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item seasonSelector" href="/t2">Temporada 2</a>
+          <a class="dropdown-item seasonSelector" href="/t1">Temporada 1</a>
+        </div>
+      </div>
+
+      <ul class="list-group list-group-flush showList">
+        {{ range .Data.Pages }}
+        <li class="list-group-item tematicoListItem season-{{ .Section }} invisible" data-season="{{ .Section }}">
+          <div class="showInfo">
+            <div class="row">
+              <div class="col-8">
+                <h1 class="showTitle">{{.Title}}</h1>
+                <p class="showInfo">{{ .Description}}</p>
+              </div>
+              <div class="col-4">
+                <img class="img-fluid" src="{{.Site.BaseURL}}img/{{.Params.image}}" alt="Portada {{.Title}}" />
+              </div>
+            </div>
+          </div>
+          <div class="showInfo">
+            <a class="btn btn-danger btn-sm tematicoCTA" href="{{.Params.ytlink}}">Escuchar <i class="fab fa-youtube"></i></a>
+            <a class="btn btn-primary btn-sm tematicoCTA" href="{{ .Permalink }}">Info <i class="fas fa-info-circle"></i></a>
+          </div>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</div>
+{{ partial "footer.html" . }}

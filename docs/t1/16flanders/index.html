@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/tematico.css">
+
+    <title>Tematico</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <a href="https://tematico.org/" class="siteTitleHeader">Tematico</a>
+          <a href="https://www.youtube.com/channel/UCKxo7KlGByT85HQqDc9dxYg" class="siteTitleHeader"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.facebook.com/tematicomx" class="siteTitleHeader"><i class="fab fa-facebook"></i> /tematicomx</a>
+        </div>
+      </div>
+    </div>
+
+
+<div class="container tematicoContainer">
+  <div class="row">
+    <div class="col-md-12 col-lg-6">
+    <h1>Estúpido y Sensual Flanders</h1>
+      <img  src="https://tematico.org/img/flanders.jpg" class="img-fluid">
+      
+		<a href="https://youtu.be/7ujFo0CSOys?list=PLWlvCVCglIUveof3O0WTbcEIy_2DddcAp"  target="_blank" class="btn btn-danger youtubeSingle">Escuchar en Youtube</a>
+	
+    </div>
+    <div class="col-md-12 col-lg-6">
+      <p class="lead">En este episodio, Temático se llena de látex, pantalones apretados, sudor y dudosas preferencias con mucho contacto de por medio. ¡Es como si no tuviéramos nada puesto! Como dijera Vik, &#34;el episodio que el episcopado no quiere que escuches&#34;... Enjoy!</p>
+
+      
+      <ul class="list-group list-group-flush showList">
+        
+        <li class="list-group-item tematicoListItem">
+        	Yello - Oh Yeah
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Air - Sexy Boy
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	The Kooks - Bad Habit
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Black Box - Everybody
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Boney M - Daddy Cool
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Rocky Horror Picture Show - Sweet Transvestite
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	The Black Keys - Tighten Up
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Right Said Fred - I&#39;m Too Sexy
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Electric Six - Gay Bar
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	C&#43;C Music Factory - Gonna Make You Sweat (Everybody Dance Now) ft. Freedom Williams
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Rod Stewart - Da Ya Think I&#39;m Sexy
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Gerardo - Rico, Suave
+        </li>
+        
+      </ul>
+      
+    </div>
+  </div>
+</div>
+
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    	$(document).ready(function(){
+    		$('.tematicoListItem').hide();
+    		$('.tematicoListItem').removeClass('invisible');
+    		$('.season-t2').show();
+    		$('.seasonSelector').on('click', function(event){
+    			event.preventDefault();
+    			var selectedSeasson = $(this).attr('href').replace('/', '');
+    			$('.tematicoListItem').hide();
+    			$('.season-'+selectedSeasson).show();
+    			$('#dropdownMenuButton').text($(this).text())
+    		})
+    	});
+    </script>
+  </body>
+</html>

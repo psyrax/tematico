@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/tematico.css">
+
+    <title>Tematico</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <a href="https://tematico.org/" class="siteTitleHeader">Tematico</a>
+          <a href="https://www.youtube.com/channel/UCKxo7KlGByT85HQqDc9dxYg" class="siteTitleHeader"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.facebook.com/tematicomx" class="siteTitleHeader"><i class="fab fa-facebook"></i> /tematicomx</a>
+        </div>
+      </div>
+    </div>
+
+
+<div class="container tematicoContainer">
+  <div class="row">
+    <div class="col-md-12 col-lg-6">
+    <h1>Préstame un Sentimiento</h1>
+      <img  src="https://tematico.org/img/32.png" class="img-fluid">
+      
+		<a href="https://youtu.be/nzqCPlrlGfM"  target="_blank" class="btn btn-danger youtubeSingle">Escuchar en Youtube</a>
+	
+    </div>
+    <div class="col-md-12 col-lg-6">
+      <p class="lead">Llegó el Temático que tiene algo especial para los que quieren decir algo desde el corazón... Y que le hace un favor a todos los hombres enamorados. Porque para eso estamos. Préstame un sentimiento. Enjoy!</p>
+
+      
+      <ul class="list-group list-group-flush showList">
+        
+        <li class="list-group-item tematicoListItem">
+        	Los Terrícolas - Te juro Que te Amo
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Jarabe de Palo - Bonito
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Apoptygma Berzerk - Love never dies
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Grupo Mojado - Piensa en mi
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	ABBA - The Winner Takes it All
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Lana del Rey - Young &amp; Beautiful
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Lacrimosa  - Not every pain hurts
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	REO Speedwagon - Can&#39;t Fight This Feeling
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Bonnie Tyler - Total Eclipse of the Heart
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Belanova - Y Mi Kokoro... (XD)
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Box car racer - There is
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Boston - More Than a Feeling
+        </li>
+        
+      </ul>
+      
+    </div>
+  </div>
+</div>
+
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    	$(document).ready(function(){
+    		$('.tematicoListItem').hide();
+    		$('.tematicoListItem').removeClass('invisible');
+    		$('.season-t2').show();
+    		$('.seasonSelector').on('click', function(event){
+    			event.preventDefault();
+    			var selectedSeasson = $(this).attr('href').replace('/', '');
+    			$('.tematicoListItem').hide();
+    			$('.season-'+selectedSeasson).show();
+    			$('#dropdownMenuButton').text($(this).text())
+    		})
+    	});
+    </script>
+  </body>
+</html>

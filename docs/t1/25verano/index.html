@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/tematico.css">
+
+    <title>Tematico</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <a href="https://tematico.org/" class="siteTitleHeader">Tematico</a>
+          <a href="https://www.youtube.com/channel/UCKxo7KlGByT85HQqDc9dxYg" class="siteTitleHeader"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.facebook.com/tematicomx" class="siteTitleHeader"><i class="fab fa-facebook"></i> /tematicomx</a>
+        </div>
+      </div>
+    </div>
+
+
+<div class="container tematicoContainer">
+  <div class="row">
+    <div class="col-md-12 col-lg-6">
+    <h1>Flotis y Oaxtepec</h1>
+      <img  src="https://tematico.org/img/25.jpg" class="img-fluid">
+      
+		<a href="https://youtu.be/CAK3Vw6R8Ds?list=PLWlvCVCglIUss1qmx3hBJsHrPL8NhL_Lq"  target="_blank" class="btn btn-danger youtubeSingle">Escuchar en Youtube</a>
+	
+    </div>
+    <div class="col-md-12 col-lg-6">
+      <p class="lead">Saquen los sándwich de atún y el huevo cocido, que ya llego el Temático veraniego, más refrescante que una playa de la CDMX. Rólense las cervezas y nademos con nuestros flotis en Oaxtepec.</p>
+
+      
+      <ul class="list-group list-group-flush showList">
+        
+        <li class="list-group-item tematicoListItem">
+        	Janis Joplin - Summertime
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Calvin Harris - Summer
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Beach Boys - California Girls
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	The vandals - Summer lovin
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	The Lovin&#39; Spoonful - Summer in the City
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Demi Lovato - Cool for the summer
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Rolling Stones - Under the Boardwalk
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Blondie - The tide is high
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Derek Sherinian ft. Slash and Billy Idol - In the Summertime
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Smash Mouth - Pacific Coast Party
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Camel - Summer Lightning
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Guns and roses - Paradise City
+        </li>
+        
+      </ul>
+      
+    </div>
+  </div>
+</div>
+
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    	$(document).ready(function(){
+    		$('.tematicoListItem').hide();
+    		$('.tematicoListItem').removeClass('invisible');
+    		$('.season-t2').show();
+    		$('.seasonSelector').on('click', function(event){
+    			event.preventDefault();
+    			var selectedSeasson = $(this).attr('href').replace('/', '');
+    			$('.tematicoListItem').hide();
+    			$('.season-'+selectedSeasson).show();
+    			$('#dropdownMenuButton').text($(this).text())
+    		})
+    	});
+    </script>
+  </body>
+</html>

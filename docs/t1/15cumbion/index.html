@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/tematico.css">
+
+    <title>Tematico</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <a href="https://tematico.org/" class="siteTitleHeader">Tematico</a>
+          <a href="https://www.youtube.com/channel/UCKxo7KlGByT85HQqDc9dxYg" class="siteTitleHeader"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.facebook.com/tematicomx" class="siteTitleHeader"><i class="fab fa-facebook"></i> /tematicomx</a>
+        </div>
+      </div>
+    </div>
+
+
+<div class="container tematicoContainer">
+  <div class="row">
+    <div class="col-md-12 col-lg-6">
+    <h1>¡Oi nomás ese Cumbión! </h1>
+      <img  src="https://tematico.org/img/cumbion.jpg" class="img-fluid">
+      
+		<a href="https://youtu.be/H3lW9hqZ_kA"  target="_blank" class="btn btn-danger youtubeSingle">Escuchar en Youtube</a>
+	
+    </div>
+    <div class="col-md-12 col-lg-6">
+      <p class="lead">Saludo do-do-dos... Llegó el Temátco-co-co... Sonidero-oo-oo... Con puros cumbiones místicos con harto sabor para este episodio. Un saludo para el Erwin y el Negro de Iztapalapá. ¡Goza!</p>
+
+      
+      <ul class="list-group list-group-flush showList">
+        
+        <li class="list-group-item tematicoListItem">
+        	Grupo G - La Cumbia de los Monjes
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	The Mars Volta - L&#39;Via L&#39;Viaquez
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Omar Rodriguez-Lopez - Deus Ex Machina
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Margarita &#39;La Diosa de la Cumbia&#39; - Que bello
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Los Mirlos - La Cumbia de los Pajaritos
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Beastie Boys - Sabrosa
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	El Cuarteto de Nos - Necesito una Mujer
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Los Gallagher Bros  - Don&#39;t Look Back In Anger
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Grupo Soñador - El Paso del Gigante
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Santana - Black Magic Woman
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Los Ángeles Azules - Como te voy a olvidar
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Celso Piña - Cumbia sobre el rio
+        </li>
+        
+      </ul>
+      
+    </div>
+  </div>
+</div>
+
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    	$(document).ready(function(){
+    		$('.tematicoListItem').hide();
+    		$('.tematicoListItem').removeClass('invisible');
+    		$('.season-t2').show();
+    		$('.seasonSelector').on('click', function(event){
+    			event.preventDefault();
+    			var selectedSeasson = $(this).attr('href').replace('/', '');
+    			$('.tematicoListItem').hide();
+    			$('.season-'+selectedSeasson).show();
+    			$('#dropdownMenuButton').text($(this).text())
+    		})
+    	});
+    </script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+{{ partial "header.html" . }}
+
+<div class="container tematicoContainer">
+  <div class="row">
+    <div class="col-md-12 col-lg-6">
+    <h1>{{ .Title }}</h1>
+      <img  src="{{.Site.BaseURL}}img/{{.Params.image}}" class="img-fluid">
+      {{if isset .Params "ytlink" }}
+		<a href="{{.Params.ytlink}}"  target="_blank" class="btn btn-danger youtubeSingle">Escuchar en Youtube</a>
+	{{end}}
+    </div>
+    <div class="col-md-12 col-lg-6">
+      <p class="lead">{{ .Description }}</p>
+
+      {{if isset .Params "tracks" }}
+      <ul class="list-group list-group-flush showList">
+        {{range .Params.tracks}}
+        <li class="list-group-item tematicoListItem">
+        	{{ . }}
+        </li>
+        {{end}}
+      </ul>
+      {{ end }}
+    </div>
+  </div>
+</div>
+
+
+{{ partial "footer.html" . }}

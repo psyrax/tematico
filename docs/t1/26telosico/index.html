@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/tematico.css">
+
+    <title>Tematico</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <a href="https://tematico.org/" class="siteTitleHeader">Tematico</a>
+          <a href="https://www.youtube.com/channel/UCKxo7KlGByT85HQqDc9dxYg" class="siteTitleHeader"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.facebook.com/tematicomx" class="siteTitleHeader"><i class="fab fa-facebook"></i> /tematicomx</a>
+        </div>
+      </div>
+    </div>
+
+
+<div class="container tematicoContainer">
+  <div class="row">
+    <div class="col-md-12 col-lg-6">
+    <h1>Telosico</h1>
+      <img  src="https://tematico.org/img/26.jpg" class="img-fluid">
+      
+		<a href="https://youtu.be/1ZmQNN_4_-A?list=PLWlvCVCglIUtULhHJxD2IX-HK8Gncm2bF"  target="_blank" class="btn btn-danger youtubeSingle">Escuchar en Youtube</a>
+	
+    </div>
+    <div class="col-md-12 col-lg-6">
+      <p class="lead">Niños y niñas, caramelos y bolitas, hicimos un playlist para darles el mejor consejo que pueden darles: Calladitos se ven más bonitos. Así que... ¡&#39;Telosico!</p>
+
+      
+      <ul class="list-group list-group-flush showList">
+        
+        <li class="list-group-item tematicoListItem">
+        	Limp Bizkit - Break Stuff
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	The Ting Tings - Shut Up And Let Me Go
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	No Doubt - Don&#39;t Speak
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Sol Pereyra - Nadie te preguntó
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Korn - Right Now
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Walk The Moon - Shut Up And Dance
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Aerosmith - Shut Up And Dance
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Starsailor - Silence is Easy
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Lnikin Park - One step closer
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Simon &amp; Garfunkel - The Sound Of Silence
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Pantera - Walk
+        </li>
+        
+        <li class="list-group-item tematicoListItem">
+        	Depeche Mode - Enjoy the silence
+        </li>
+        
+      </ul>
+      
+    </div>
+  </div>
+</div>
+
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    	$(document).ready(function(){
+    		$('.tematicoListItem').hide();
+    		$('.tematicoListItem').removeClass('invisible');
+    		$('.season-t2').show();
+    		$('.seasonSelector').on('click', function(event){
+    			event.preventDefault();
+    			var selectedSeasson = $(this).attr('href').replace('/', '');
+    			$('.tematicoListItem').hide();
+    			$('.season-'+selectedSeasson).show();
+    			$('#dropdownMenuButton').text($(this).text())
+    		})
+    	});
+    </script>
+  </body>
+</html>

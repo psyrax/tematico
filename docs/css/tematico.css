@@ -1,0 +1,47 @@
+body{
+	background-color: #08010F;
+	color: #D2CCD9;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.tematicoContainer{
+	margin-top: 1em;
+}
+
+.tematicoListItem{
+	background-color: transparent;
+	border-color: #D2CCD9;
+}
+
+.showInfo{
+	display: block !important;
+	width: 100% !important;
+}
+
+.showList{
+	margin-top: 1em;
+}
+
+.showTitle{
+	font-size: 1.2em !important;
+}
+
+.showInfo{
+	font-size: 0.9em !important;
+}
+
+.siteTitleHeader{
+	font-size: 1.4em;
+	color: #F01FAA;
+	margin-top: 0.5em;
+	margin-right: 1em;
+}
+
+.siteTitleHeader:hover{
+	color: #F01FAA;
+	text-decoration: none;
+}
+
+.youtubeSingle{
+	margin-top: 1em !important;
+}
